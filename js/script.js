@@ -27,16 +27,6 @@ $('.parent').click(function(){
     $(current).slideToggle();
 });
 
-$(function(){
-    $('#yourphone').usPhoneFormat({
-      format: '(xxx) xxx-xxxx'
-    });
-});
-
-// $('.same-as-shipping-address').onchange(function(){
-//     console.log('checked');
-// });
-
 $("#same-as-shipping-address").click(function() {
     if(this.checked) {
         $('.billing-adress').slideUp();
@@ -44,3 +34,16 @@ $("#same-as-shipping-address").click(function() {
         $('.billing-adress').slideDown();
     }
 });
+
+/* Checkbox
+
+$("input[type='checkbox']").change(function() {
+    if(this.checked) {
+        console.log('this is checked');
+    }else{
+        console.log('This is unchecked');
+    }
+});
+
+*/
+

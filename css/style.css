@@ -1306,8 +1306,17 @@ a.btn.offer-button {
     text-align: center;
 }
 
+.user-details-table td {
+    vertical-align: middle;
+}
+
 .user-details-table span.small {
     font-size: 12px;
+    font-weight: 400;
+}
+
+.user-details-table td span.small {
+    font-size: 10px;
     font-weight: 400;
 }
 
@@ -1340,3 +1349,53 @@ a.btn.offer-button {
         min-width: 192px;
     }
 }
+
+
+/* Custom checkbox */
+
+.round {
+    position: relative;
+}
+
+.round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    transform: translateX(-50%);
+}
+
+.round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 4px;
+    left: 6px;
+    opacity: 0;
+    position: absolute;
+    top: 7px;
+    transform: rotate(-45deg);
+    width: 7px;
+}
+
+.round input[type="checkbox"] {
+    visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+    background-color: #F6931C;
+    border-color: #F6931C;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}
+
+
+
