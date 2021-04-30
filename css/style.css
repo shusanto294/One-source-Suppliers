@@ -1315,9 +1315,16 @@ a.btn.offer-button {
     font-weight: 400;
 }
 
-.user-details-table td span.small {
-    font-size: 10px;
+.user-details-table a{
+    color: #000;
+    text-decoration: none;
+}
+
+.user-details-table a.small {
+    font-size: 12px;
     font-weight: 400;
+    color: #212529;
+    text-decoration: none;
 }
 
 .pagination nav{
@@ -1397,5 +1404,7 @@ a.btn.offer-button {
     opacity: 1;
 }
 
-
+tr th:nth-child(1), tr td:nth-child(1){
+    border-right: 1px solid #000;
+}
 
