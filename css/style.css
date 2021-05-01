@@ -1426,7 +1426,7 @@ tr th:nth-child(1), tr td:nth-child(1){
     color: #ddd;
 }
 
-.profile-header {
+.profile-header { 
     margin-bottom: 50px;
     display: flex;
 }
