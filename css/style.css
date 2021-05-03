@@ -1444,3 +1444,8 @@ tr th:nth-child(1), tr td:nth-child(1){
 p.profile-users-name {
     font-weight: 700;
 }
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
