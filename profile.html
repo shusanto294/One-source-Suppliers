@@ -508,10 +508,17 @@
       <div class="container">
         <div class="signup card p-5">
 
-            <div class="form-group form-edit-button-wrap">
-              <div class="form-field align-right">
-                <button type="submit" class="btn continue-button form-edit-button">Edit</button>
+            <div class="form-edit-button-wrap">
+              <div class="contaner mb-4">
+                <div class="row">
+                <div class="col-9">
+                  <h3>Mariam Geisinsky</h3>
+                </div>
+                <div class="col-3">
+                  <button type="submit" class="btn continue-button form-edit-button">Edit</button>
+                </div>
               </div>
+            </div>
             </div>
 
             <form class="form signup-form">
@@ -519,11 +526,11 @@
                 <div class="inline-inputs">
                   <div class="form-field">
                     <label for="fname">First Name</label>
-                    <input type="text" value="Geisinsky" id="fname" disabled>
+                    <input type="text" value="Mariam" id="fname" disabled>
                   </div>
                   <div class="form-field">
                     <label for="lname">Last Name</label>
-                    <input type="text" value="Mariam" id="lname" disabled>
+                    <input type="text" value="Geisinsky" id="lname" disabled>
                   </div>
                 </div>
               </div>
@@ -663,7 +670,7 @@
 
       $('.form-edit-button').click(function(){
         $('input').removeAttr('disabled');
-        $('.form-edit-button-wrap').hide();
+        $('.form-edit-button').hide();
         $('.form-action-buttons').show();
       });
     </script>
