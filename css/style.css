@@ -927,6 +927,7 @@ p.mega-menu-column-heading {
     color: #202B5C;
     text-transform: uppercase;
     margin-bottom: 5px;
+    font-weight: 600;
 }
 
 .mega-menu-column-links {
@@ -937,7 +938,7 @@ p.mega-menu-column-heading {
 .mega-menu-column-links a, .dropdown-content a{
     color: #333;
     text-decoration: none;
-    padding: 5px 0;
+    padding: 3px 0;
 }
 
 .mega-menu-column-links a:hover {
