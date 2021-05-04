@@ -927,7 +927,8 @@ p.mega-menu-column-heading {
     color: #202B5C;
     text-transform: uppercase;
     margin-bottom: 5px;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.125rem;
 }
 
 .mega-menu-column-links {
@@ -939,6 +940,7 @@ p.mega-menu-column-heading {
     color: #333;
     text-decoration: none;
     padding: 3px 0;
+    font-size: 1.125rem;
 }
 
 .mega-menu-column-links a:hover {
