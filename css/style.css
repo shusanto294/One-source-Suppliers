@@ -1456,3 +1456,8 @@ label {
 .form-edit-button{
     float: right;
 }
+
+.center-aligned{
+    display: flex;
+    justify-content: center;
+}
